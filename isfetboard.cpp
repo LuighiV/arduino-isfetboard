@@ -44,7 +44,8 @@ void IsfetBoard::begin(void){
 }
 
 int IsfetBoard::readData(){
-
+	_serial.begin(_baudrate);
+	delay(100);
 	_serial.write("R 1 \n\r");
 	delay(1000);
 	char* temporal;
@@ -59,6 +60,7 @@ int IsfetBoard::readData(){
 	
 	listToData(tokens);
 	
+	_serial.end();
 	return 0;
 }
 
