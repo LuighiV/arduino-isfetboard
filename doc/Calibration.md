@@ -1,15 +1,15 @@
-#ISFET board calibration
+# ISFET board calibration
 
 To calibrate the pH sensor used in the ISFET board, an special setup and a series of steps are required.
 
-##Setup
+## Setup
 It requires that the ISFET Board must be powered at the same voltage level at which it will operate. In addition to this, it must be established a communication via the UART protocol with a terminal (PC), using for example, an UART-USB adapter.
 
 The sensors must be connected and you should have at least two buffers of fixed pH value (recommended of pH 4 and pH 7).
 
 After it, you should power the board and open a serial terminal in the PC (ex. PuTTY). A welcome message must appear in the screen regarding the parameters for the ISFET board.
 
-##Procedure
+## Procedure
 
 1. Clean the ISFET probe and place in the first pH buffer (ex. pH 4).
 

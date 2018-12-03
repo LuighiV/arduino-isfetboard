@@ -16,7 +16,7 @@ The ISFET board must be attached to the Arduino board. Then, you can test the de
 
 The most important parts are the device declaration and the reading process.
 
-###Declaration
+### Declaration
 The library declaration has the following name:
 ```C++
 #include "isfetboard.h"
@@ -34,7 +34,7 @@ IsfetBoard myboard(RXPIN,TXPIN);
 It creates, internally, the SoftwareSerial object in the RXPIN and TXPIN, declared before which communicates via UART with the ISFET Board.
 
 
-###Reading process
+### Reading process
 The main function to acquire the data is `readData()`, which internally iniatilizates the software serial port and read the information from it. After it, data is obtained and stored in internal variables `pHcomp` for compensated pH, `pH` for pH without compensation and `temperature` for temperature acquired from NTC sensor.
 
 A model to obtain this data is depicted as following:
