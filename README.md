@@ -7,7 +7,7 @@ It contains a main function to operate with it. However to operate with the boar
 ## Preliminar Tasks
 1. First of all, the board has to be assembled with all its components, which are the ISFET and NTC sensores to measure the pH and temperature.
 2. Then, it should be powered with DC voltage, either with 5V or 3.3V.
-3. It is recommended to calibrate the sensors before operation. Over all, considering that at different voltage levels, the response will be different. The procedure is explained in [Calibration](Calibration.md).
+3. It is recommended to calibrate the sensors before operation. Over all, considering that at different voltage levels, the response will be different. The procedure is explained in [Calibration](./doc/Calibration.md).
 
 ## Normal operation
 After its calibration the device is ready to operate. So, after it is placed in the solution where it will measure the pH, the device is able to acquire data.
