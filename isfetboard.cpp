@@ -2,8 +2,7 @@
  *
  * Copyright Luighi Vitón, 2018
  * All Rights Reserved
- * UNPUBLISHED, LICENSED SOFTWARE.
- *
+ * Licensed under MIT license
  * 
  ********************************************************************
 */

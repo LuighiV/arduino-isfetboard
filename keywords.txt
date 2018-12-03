@@ -1,0 +1,19 @@
+###########################################
+# Syntax Coloring Map For Arduino-ISFET-library
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+IsfetBoard	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+begin KEYWORD2
+read KEYWORD2
+readData KEYWORD2
+sendCommand KEYWORD2
+calibrate KEYWORD2
